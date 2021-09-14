@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojo Weather Exercise</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>DojoWeather</h1>
+            </div>
+            <ul class="menu">
+                <li>Burbank</li>
+                <li>Chicago</li>
+                <li>Dallas</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <div class="mainContainer">
+
+            <div class="containerHead">
+                <div class="cityDiv">
+                    <h2>San Jose</h2>
+                    <div class="temperature">
+                        <p>show temperature</p>
+                        <select name="tempSelect" id="tempSelect">
+                            <option value="C">°C</option>
+                            <option value="F">°F</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="containerDays">
+                <div class="day">
+                    <h3>Today</h3>
+                    <img src="./img/some_rain.png" alt="rain icon">
+                    <p class="detailDay">some rain</p>
+                    <div class="gradesHC">
+                        <div class="gradesHot">
+                            <span class="gradoN">24</span><span>°</span>
+                        </div>
+                        <div class="gradesCold">
+                            <span class="gradoN">18</span><span>°</span>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="day">
+                    <h3>Tomorrow</h3>
+                    <img src="./img/some_sun.png" alt="sun icon">
+                    <p class="detailDay">some sun</p>
+                    <div class=gradesHC>
+                        <div class="gradesHot">
+                            <span class="gradoN">27</span><span>°</span>
+                        </div>
+                        <div class="gradesCold">
+                            <span class="gradoN">19</span><span>°</span>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="day">
+                    <h3>Friday</h3>
+                    <img src="./img/some_clouds.png" alt="clouds icon">
+                    <p class="detailDay">some clouds</p>
+                    <div class="gradesHC">
+                        <div class="gradesHot">
+                            <span class="gradoN">21</span><span>°</span>
+                        </div>
+                        <div class="gradesCold">
+                            <span class="gradoN">16</span><span>°</span>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="day">
+                    <h3>Saturday</h3>
+                    <img src="./img/some_sun.png" alt="sun icon">
+                    <p class="detailDay">some sun</p>
+                    <div class="gradesHC">
+                        <div class="gradesHot">
+                            <span class="gradoN">26</span><span>°</span>
+                        </div>
+                        <div class="gradesCold">
+                            <span class="gradoN">21</span><span>°</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="message">
+                <div class="coockieDiv">
+                    <img src="./img/cookie.png" alt="coockie icon" class="coockie">
+                </div>
+                <div class="messageDiv">
+                    <h4>Stop! Cookie time</h4>
+                    <p>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social
+                        media features and to analyse our traffic. <a href="">Read more...</a></p>
+                </div>
+                <div class="btnDiv">
+                    <button id="btnAccept">I Accept</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
